@@ -108,9 +108,6 @@ function getMostCommonAnimal(animals) {
         highCount = animals[i]
       } else if (i < animals.length) {
         continue
-      } 
-      if (highCount.count === animals[i+1].count) {
-        return highCount
       }
     }
   }
